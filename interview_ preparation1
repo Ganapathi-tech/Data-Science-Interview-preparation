@@ -1,0 +1,33 @@
+Linear Regression
+Theoretical Understanding:
+
+
+1. What Are the Basic Assumption?(favourite)
+There are four assumptions associated with a linear regression model:
+
+Linearity: The relationship between X and the mean of Y is linear.
+Homoscedasticity: The variance of residual is the same for any value of X.
+Independence: Observations are independent of each other.
+Normality: For any fixed value of X, Y is normally distributed.
+2. Advantages
+Linear regression performs exceptionally well for linearly separable data
+Easy to implement and train the model
+It can handle overfitting using dimensionlity reduction techniques and cross validation and regularization
+3. Disadvantages
+Sometimes Lot of Feature Engineering Is required
+If the independent features are correlated it may affect performance
+It is often quite prone to noise and overfitting
+4. Whether Feature Scaling is required?
+Yes
+
+5. Impact of Missing Values?
+It is sensitive to missing values
+
+6. Impact of outliers?
+linear regression needs the relationship between the independent and dependent variables to be linear. It is also important to check for outliers since linear regression is sensitive to outlier effects.
+*Types of Problems it can solve(Supervised)
+Regression
+Overfitting And Underfitting
+*Different Problem statement you can solve using Linear Regression
+Advance House Price Prediction
+Flight Price Prediction
