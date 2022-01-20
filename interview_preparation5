@@ -1,0 +1,53 @@
+Decision Tree Classifier And Regressor
+Interview Questions:
+**Decision Tree
+1) Entropy, Information Gain, Gini Impurity
+2) Decision Tree Working For Categorical and Numerical Features
+3) What are the scenarios where Decision Tree works well
+4) Decision Tree Low Bias And High Variance- Overfitting
+5) Hyperparameter Techniques
+6) Library used for constructing decision tree
+7) Impact of Outliers Of Decision Tree
+8) Impact of mising values on Decision Tree
+9) Does Decision Tree require Feature Scaling
+**Random Forest Classifier And Regresor
+1) Ensemble Techniques(Boosting And Bagging)
+2) Working of Random Forest Classifier
+3) Working of Random Forest Regresor
+4) Hyperparameter Tuning(Grid Search And RandomSearch)
+**Important properties of Random Forest Classifiers
+1) Decision Tree---Low Bias And High Variance
+
+2) Ensemble Bagging(Random Forest Classifier)--Low Bias And Low Variance
+
+**What Are the Basic Assumption?
+There are no such assumptions
+
+**Advantages of Random Forest
+
+1) Doesn't Overfit
+
+2) Favourite algorithm for Kaggle competition
+
+3) Less Parameter Tuning required
+
+4) Decision Tree can handle both continuous and categorical variables.
+
+5) No feature scaling required: No feature scaling (standardization and normalization) required in case of Random Forest as it uses DEcision Tree internally
+
+6) Suitable for any kind of ML problems
+
+**Disadvantages of Random Forest
+
+1) Biased With features having many categories
+
+2) Biased in multiclass classification problems towards more frequent classes.
+** Whether Feature Scaling is required?
+No
+
+** Impact of outliers?
+Robust to Outliers
+
+**Types of Problems it can solve(Supervised)
+1)Classification
+2)Regression
