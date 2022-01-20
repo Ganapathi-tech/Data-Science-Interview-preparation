@@ -1,0 +1,43 @@
+SVM
+Theoretical Understanding:
+1. What Are the Basic Assumption?
+There are no such assumptions
+
+2. Advantages
+SVM is more effective in high dimensional spaces.
+SVM is relatively memory efficient.
+SVM’s are very good when we have no idea on the data.
+Works well with even unstructured and semi structured data like text, Images and trees.
+The kernel trick is real strength of SVM. With an appropriate kernel function, we can solve any complex problem.
+SVM models have generalization in practice, the risk of over-fitting is less in SVM.
+3. Disadvantages
+More Training Time is required for larger dataset
+It is difficult to choose a good kernel function https://www.youtube.com/watch?v=mTyT-oHoivA
+The SVM hyper parameters are Cost -C and gamma. It is not that easy to fine-tune these hyper-parameters. It is hard to visualize their impact
+4. Whether Feature Scaling is required?
+Yes
+
+5. Impact of Missing Values?
+Although SVMs are an attractive option when constructing a classifier, SVMs do not easily accommodate missing covariate information. Similar to other prediction and classification methods, in-attention to missing data when constructing an SVM can impact the accuracy and utility of the resulting classifier.
+
+6. Impact of outliers?
+It is usually sensitive to outliers
+
+Types of Problems it can solve(Supervised)
+1) Classification
+2) Regression
+3) Overfitting And Underfitting
+4) In SVM, to avoid overfitting, we choose a Soft Margin, instead of a Hard one i.e. we let some data points enter our margin intentionally (but we still penalize it) so that our classifier don't overfit on our training sample
+
+*Different Problem statement you can solve using SVM
+1) We can use SVM with every ANN usecases
+2) Intrusion Detection
+3) Handwriting Recognition
+Practical Implementation
+Performance Metrics:
+1)Classification
+-->Confusion Matrix
+-->Precision,Recall, F1 score
+2)Regression
+-->R2,Adjusted R2
+-->MSE,RMSE,MAE
